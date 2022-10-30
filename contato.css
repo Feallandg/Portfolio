@@ -1,0 +1,12 @@
+.contato{
+    background-color: rgb(43, 28, 57);
+}
+.icons{
+    display:flex;
+    justify-content: center;
+}
+.link-link{
+    padding-left: 50px;
+}
+.linkgit{
+}

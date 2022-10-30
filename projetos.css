@@ -1,0 +1,86 @@
+#projetos {
+    background: #2a1743;
+    height: 590px;
+    
+}
+.projetos h2, .projetos a {
+    text-align: center;
+}
+
+.projetos h2 {
+    padding-bottom: 70px;
+}
+
+.git-link{
+    text-align: center;
+    background-color: #11032b;
+    border-radius: 20px;
+    width: 100px;
+    height: 23px;
+    
+}
+.git-link:hover{
+    transform: scale(1.50);
+    transition-delay: 150ms;
+}
+.proj {
+    background-color: #c3e8f1;
+    height: 195px;
+    width: 310px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+}
+
+.proj div p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: #e8e3e3;
+}
+
+.proj:hover {
+    letter-spacing: 5px;
+}
+
+.proj div {
+    background-color: #4e277b;
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(-50deg);
+}
+.projetos-itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+}
+
+@media (max-width:1200px) {
+  .projetos{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+  }
+
+  #projetos {
+      display: flex;
+      justify-content: center;
+  }
+
+  .projetos-itens {
+      flex-direction: column;
+  }
+
+}
+@media (max-width:950px) {
+    .pro {
+        max-width: 300px;
+    }
+
+}
